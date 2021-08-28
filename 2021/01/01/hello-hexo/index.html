@@ -4,7 +4,7 @@
 
 <head>
   
-  <title>文章归档 - 菜问星宇</title>
+  <title>关于hexo的配置 - 菜问星宇</title>
   <meta charset="UTF-8">
   <meta name="description" content="在破败中崛起，在寂灭中复苏。">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -12,18 +12,20 @@
   
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
-  <meta name="description" content="在破败中崛起，在寂灭中复苏。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="菜问星宇">
-<meta property="og:url" content="http://www.tseven.ml/archives/index.html">
+  <meta name="description" content="关于hexo的后期配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于hexo的配置">
+<meta property="og:url" content="http://www.tseven.ml/2021/01/01/hello-hexo/index.html">
 <meta property="og:site_name" content="菜问星宇">
-<meta property="og:description" content="在破败中崛起，在寂灭中复苏。">
+<meta property="og:description" content="关于hexo的后期配置">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-01-01T08:00:00.000Z">
+<meta property="article:modified_time" content="2021-08-28T08:31:18.618Z">
 <meta property="article:author" content="TN">
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css?v=233" crossorigin>
   
-  <link rel="stylesheet" href="/css/style.css?v=1630141254567">
+  <link rel="stylesheet" href="/css/style.css?v=1630141254565">
 <meta name="generator" content="Hexo 5.1.1"></head>
 
 <body class="mdui-drawer-body-left">
@@ -167,40 +169,126 @@
   </div>
   <div id="nexmoe-content">
     <div class="nexmoe-primary">
-        
-<section class="nexmoe-archives">
+        <div class="nexmoe-post">
+  
+      <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+          <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="关于hexo的配置" class="lazyload">
+          <h1>关于hexo的配置</h1>
+      </div>
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2021年01月01日</a>
+    <a><i class="nexmoefont icon-areachart"></i>385 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+</div>
 
-    <article>
-        
+  <div class="nexmoe-post-right">
+    
+  </div>
 
-        
-            <h2>2021</h2>
-            <ul>
-            
-                <li><span>08-28</span><a href="/2021/08/28/xiaomi/" >《小米圣经》全文转载</a></li>
-            
-                <li><span>08-12</span><a href="/2021/08/12/honor/" >荣耀X20</a></li>
-            
-                <li><span>08-10</span><a href="/2021/08/10/%E4%BD%95%E5%90%8C%E5%AD%A6%E6%89%8B%E6%9C%BA/" >《这视频能让你戒手机》</a></li>
-            
-                <li><span>08-08</span><a href="/2021/08/08/bitchange/" >位运算和逻辑运算</a></li>
-            
-                <li><span>08-08</span><a href="/2021/08/08/renty0/" >小米系2021年已发布的中高端产品</a></li>
-            
-                <li><span>08-08</span><a href="/2021/08/08/renty1/" >手机刷机方法</a></li>
-            
-                <li><span>07-28</span><a href="/2021/07/28/bfs/" >bfs</a></li>
-            
-                <li><span>07-28</span><a href="/2021/07/28/%E5%8D%95%E6%BA%90%E6%9C%80%E7%9F%AD%E8%B7%AF/" >单源最短路</a></li>
-            
-                <li><span>02-19</span><a href="/2021/02/19/mmd0/" >商业互吹</a></li>
-            
-                <li><span>01-01</span><a href="/2021/01/01/hello-hexo/" >关于hexo的配置</a></li>
-            
-            </ul>
-        
-    </article>
+  <article>
+    <p>关于hexo的后期配置</p>
+<a id="more"></a>
+<h2 id="NPM加速"><a href="#NPM加速" class="headerlink" title="NPM加速"></a>NPM加速</h2><h3 id="淘宝镜像源"><a href="#淘宝镜像源" class="headerlink" title="淘宝镜像源"></a>淘宝镜像源</h3><pre><code># 设置
+npm config set registry https://registry.npm.taobao.org
+# 验证
+npm config get registry</code></pre>
+<p>返回<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org,成功./">https://registry.npm.taobao.org，成功。</a></p>
+<h3 id="华为云镜像源"><a href="#华为云镜像源" class="headerlink" title="华为云镜像源"></a>华为云镜像源</h3><pre><code># 设置
+npm config set registry https://mirrors.huaweicloud.com/repository/npm/
+# 验证
+npm config get registry</code></pre>
+<h2 id="看板娘"><a href="#看板娘" class="headerlink" title="看板娘"></a>看板娘</h2><h3 id="进入Hexo博客根目录安装插件"><a href="#进入Hexo博客根目录安装插件" class="headerlink" title="进入Hexo博客根目录安装插件"></a>进入Hexo博客根目录安装插件</h3><pre><code>npm install --save hexo-helper-live2d</code></pre>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><pre><code>live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-miku
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7</code></pre>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre><code>npm install live2d-widget-model-miku</code></pre>
+<h2 id="Git-删除所有提交历史并覆盖Github历史"><a href="#Git-删除所有提交历史并覆盖Github历史" class="headerlink" title="Git 删除所有提交历史并覆盖Github历史"></a>Git 删除所有提交历史并覆盖Github历史</h2><p><a target="_blank" rel="noopener" href="https://vonsdite.github.io/posts/d69e1361.html">https://vonsdite.github.io/posts/d69e1361.html</a></p>
+<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><ol>
+<li>当历史记录中出现过<strong>密码</strong>等敏感信息在历史记录中, 需要删除历史记录时</li>
+<li>当项目因历史记录过多, 导致历史记录占用了<strong>大量内存</strong>时, 比如Github仓库个人总容量时1GB不够用时</li>
+<li>当你想要一个全新的项目的时候, 并且想保持项目代码不变</li>
+</ol>
+<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><pre><code># 1. 创建全新的孤立分支 latest_branch
+git checkout --orphan latest_branch
+
+# 2. 暂存所有文件
+git add -A
+
+# 3. 提交所有文件的修改到latest_branch
+git commit -am &quot;del all history&quot;
+
+# 4. 删除原来的master分支
+git branch -D master
+
+# 5. 修改latest_branch分支名为master
+git branch -m master
+
+# 6. 强制更新远程服务器的master分支, 至此清空git所有历史
+git push -f origin master</code></pre>
+<p>不带注释, 方便复制:</p>
+<pre><code>git checkout --orphan latest_branch
+git add -A
+git commit -am &quot;del all history&quot;
+git branch -D master
+git branch -m master
+git push -f origin master</code></pre>
+
+  </article>
+
+  
+    
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>TN<br>
+    <strong>本文链接：</strong><a href="http://www.tseven.ml/2021/01/01/hello-hexo/" title="http:&#x2F;&#x2F;www.tseven.ml&#x2F;2021&#x2F;01&#x2F;01&#x2F;hello-hexo&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.tseven.ml&#x2F;2021&#x2F;01&#x2F;01&#x2F;hello-hexo&#x2F;</a><br>
+    
+      <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可，未经同意，不得用于商业用途。
+    
+  </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/">花里胡哨</a>
+    
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    <section class="nexmoe-comment">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80OTQzNC8yNTkyNg">
+    <script id="livere-comment-js">
+    (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+       if (typeof LivereTower === 'function') { return; }
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+       e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    </script>
+</div>
 </section>
+  </div>
+</div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
@@ -210,7 +298,7 @@
     <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
 
 
-<script src="/js/app.js?v=1630141254568"></script>
+<script src="/js/app.js?v=1630141254566"></script>
   
 
 
